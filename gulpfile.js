@@ -1,7 +1,7 @@
 const {src,dest,parallel,watch}=require("gulp");
 const autoprefixer=require("gulp-autoprefixer");
 const clean=require("gulp-clean-css");
-
+const img=require("gulp-imagemin");
 
 function style(){
   return src("./src/css/**/*.css")
@@ -11,4 +11,10 @@ function style(){
   }))
   .pipe(clean())
   .pipe(dest("./dest/css/"))
+}
+ 
+function imgs(){
+  return src("./src/images/**/")
+  .pipe(img())
+  .pipe(dest("./dest/images/"))
 }
