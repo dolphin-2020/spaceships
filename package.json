@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dolphin-2020/spaceships#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
   }
 }
