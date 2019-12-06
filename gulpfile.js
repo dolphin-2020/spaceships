@@ -1,6 +1,6 @@
 const {src,dest,parallel,watch}=require("gulp");
 const autoprefixer=require("gulp-autoprefixer");
-const clean=require("gulp-clean-css ");
+const clean=require("gulp-clean-css");
 
 
 function style(){
