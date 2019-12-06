@@ -38,3 +38,11 @@ function cpHtml(){
   return src('./src/**/*.html')
   .pipe(dest('./dest/'))
 }
+
+function watcher () {
+  watch('./src/css/**/*.scss', style)
+  watch('./src/js/**/*.js',js)
+  watch('src/**/*.html',cpHtml)
+  watch('./src/images/',imgs)
+}
+
