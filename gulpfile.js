@@ -46,3 +46,4 @@ function watcher () {
   watch('./src/images/',imgs)
 }
 
+exports.all=parallel(style,cpHtml,imgs,js,watcher);
