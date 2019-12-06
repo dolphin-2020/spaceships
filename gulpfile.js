@@ -17,7 +17,7 @@ function style(){
 }
  
 function imgs(){
-  return src("./src/images/**/")
+  return src("./src/images/**/*")
   .pipe(img())
   .pipe(dest("./dest/images/"))
 }
