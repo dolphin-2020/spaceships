@@ -32,5 +32,9 @@ function js(){
   .pipe(concat('main.js'))
   .pipe(uglify())
   .pipe(dest('./dest/js'))
+}
 
+function cpHtml(){
+  return src('./src/**/*.html')
+  .pipe(dest('./dest/'))
 }
