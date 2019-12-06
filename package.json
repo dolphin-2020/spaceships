@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dolphin-2020/spaceships/issues"
   },
-  "homepage": "https://github.com/dolphin-2020/spaceships#readme"
+  "homepage": "https://github.com/dolphin-2020/spaceships#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
